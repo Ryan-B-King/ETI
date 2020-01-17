@@ -1,0 +1,157 @@
+/* **BODY** */
+
+body {
+    font-family: 'Abel', sans-serif;
+}
+
+.aboutwrap {
+    grid-column: 1/3;
+    grid-row: 1/3;
+    width: 100%;
+    font-size: 1.2em; 
+    font-family: 'Abel', sans-serif;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    }
+.aboutwrap p:nth-of-type(1) {
+    text-indent: 20%;
+}
+.aboutwrap p:nth-of-type(3) {
+    line-height: 2em;
+}
+.aboutusheader {
+    width: 100%;
+    }
+.aboutusaward {
+    width: 25%;
+    float: right;
+    margin: 0 0 3% 3%;
+    }
+.aboutwrap p {
+    width: 84%;
+    padding-left: 8%;
+    }
+.aboutusmission {
+    margin-top: 7%;
+    width: 80%;
+    opacity: 75%;
+    padding-left: 10%;
+    }
+.aboutwrap h1 {
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 50px;
+    }
+#orangehear {
+    float: left;
+    width: 20%;
+    }
+#redhear {
+    float: right;
+    width: 17%;
+    padding-right: 20%;
+    }
+#bluetshirt {
+    float: left;
+    width: 17%;
+    margin: 10px 10px 0 0;
+    }
+#nextlevel {
+    margin: 100px 0 100px 0;
+    font-family: 'Abel', sans-serif;
+    text-align: right;
+    font-size: 2em;
+    letter-spacing: 0.05em
+    }
+#toprovide {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.2em;
+    width: 60%;
+    margin-left: 10%;
+    }
+
+@media screen and (max-width: 479px) {
+    nav {display: grid; justify-items: center;}
+    .logo {padding: 0; justify-self: center;}
+    ul {padding: 0;}
+    .nav-links {margin: 15px 0; justify-content: center;}
+    nav li {font-size: 1rem;padding: 0 10px;}
+    .aboutusaward {
+        display: none;
+    }
+    .aboutwrap p:nth-of-type(3) {
+        line-height: 1.5em;
+    }
+    .aboutwrap, #toprovide {
+    font-size: 1em;
+    }
+    #nextlevel {
+    font-size: 1em;
+    font-weight: bold;
+    }
+    #orangehear, #redhear, #bluetshirt {
+        display: none;
+    }
+    .aboutusmission {
+        display: none;
+    }
+    .aboutwrap h1 {
+        padding-top: 0;
+    }
+    #nextlevel {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    }
+    footer{ display: flex; flex-direction: column; text-align: center;}
+    #footer1a { padding: 0;}
+    #footer1b button {margin: 25px 0;}
+    #footer2 {margin: 0;}
+    #footer3 {margin: 0;}
+    #links {justify-content: center;}
+    #copy {margin-top: 25px;}
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    nav {display: grid;}
+    .logo {justify-self: center;}
+    ul {padding: 0;}
+    .nav-links {margin: 15px 0; justify-content: center;}
+    nav li {font-size: 1rem;padding: 0 10px;}
+    #nextlevel {
+    font-size: 1.2em;
+    }
+    #orangehear, #redhear, #bluetshirt {
+        width: 25%;
+    }
+    #mission {
+        display: none;
+    }
+    footer{ display: flex; flex-direction: column; text-align: center;}
+    #footer1a { padding: 0;}
+    #footer1b button {margin: 25px 0;}
+    #footer2 {margin: 0;}
+    #footer3 {margin: 0;}
+    #links {justify-content: center;}
+    #copy {margin-top: 25px;}
+}
+@media screen and (min-width: 768px) and (max-width: 959px) {
+    .logo {padding-left: 10%; width:175px}
+    nav li {font-size: 1.2rem; padding: 0 15px;}
+    #nextlevel {
+    font-size: 1.5em;
+    }
+    #mission {
+        display: none;
+    }
+}
+@media screen and (min-width: 960px) and (max-width: 1023px) {
+    .logo {padding-left: 15%; width: 200px}
+    nav li {font-size: 1.4rem;}
+    #mission {
+        display: none;
+    }
+}
+@media screen and (min-width: 1024px) {
+    #mission {
+        display: none;
+    }
+}
